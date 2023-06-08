@@ -5,6 +5,17 @@
 
 // 1: Write a function named greeting that returns a string with a general greeting. 
 
+// function greeting () {
+//     return "Hello"
+// }
+// console.log(greeting);
+function greeting() {
+    return "Hello"
+  }
+  
+    console.log(greeting());
+    greeting();
+  
 
 // 2: Write a function named customGreeting that returns a greeting WITH a specific name.
 
@@ -30,3 +41,4 @@ checkStock(0, "Cheese");
 
 checkStock(1, "Salsa");
 // => "Salsa - running LOW"
+
