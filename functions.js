@@ -10,17 +10,39 @@
 // }
 // console.log(greeting);
 function greeting() {
-    return "Hello"
-  }
-  
-    console.log(greeting());
-    greeting();
+  return "Hello"
+}
+var salutation = greeting()
+console.log(salutation);
+greeting();
   
 
 // 2: Write a function named customGreeting that returns a greeting WITH a specific name.
 
+function customGreeting(name) {
+  return `Hello, ${name}!`;
+}
+var salutation1 = customGreeting("Kasandra")
+console.log(salutation1);
+
+var saluation2 =customGreeting("Hanna")
+console.log(saluation2)
+  // var salutation = customGreeting()
+  // console.log(salutation("Kasandra"));
+  // customGreeting();
+
+
 
 // 3: Write a function named greetPerson that takes in 3 strings, a first, middle, and last name, and returns a sentence with the full name.
+
+function greetPerson(first, middle, last) {
+  return `Hello, ${first} ${middle} ${last}!`;
+}
+var salutation3 = greetPerson("Mary", "Kate", "Olsen")
+console.log(salutation3)
+
+var salutation4 = greetPerson("Anya", "Taylor", "Joy")
+console.log(salutation4)
 
 
 // 4: Write a function named square that takes in one number, and returns the square of that number.
@@ -30,15 +52,15 @@ function greeting() {
 // 5: Write a function named checkStock that satisfies the following interaction pattern:
 // Hint: You will only write one checkStock function that checks the quantity and then prints the corresponding statement.
 
-checkStock(4, "Coffee");
-// => "Coffee is stocked"
+// checkStock(4, "Coffee");
+// // => "Coffee is stocked"
 
-checkStock(3, "Tortillas");
-// => "Tortillas - running LOW"
+// checkStock(3, "Tortillas");
+// // => "Tortillas - running LOW"
 
-checkStock(0, "Cheese");
-// => "Cheese - OUT of stock!"
+// checkStock(0, "Cheese");
+// // => "Cheese - OUT of stock!"
 
-checkStock(1, "Salsa");
-// => "Salsa - running LOW"
+// checkStock(1, "Salsa");
+// // => "Salsa - running LOW"
 
