@@ -16,6 +16,24 @@
 
 
 "Hello World".endsWith("rld");
+// "Hello World".includes("Hello");
+// // the includes function is called to the string "Hello World."
+// //This function evaluates if the Argument "Hello" is included in the string "Hello Word"
+
+// // The return value is 'true'
+
+
+// "Hello World".endsWith("Hello");
+
+// // the endsWith function is called to the string "Hello World." 
+// // This function evaluates if thhe string "Hello World" ends with the argument "Hello"
+// // The return value is 'false'
+
+// "Hello World".endsWith("rld");
+
+// // the endsWith function is called to the string "Hello World."
+// // This function evaluates if the string "Hello World" ends with the argument "rld"
+// // the return value is 'true'
 
 
 
@@ -39,4 +57,25 @@ console.log(firstName.startsWith("J"));
 // Declare 2 variables assigned to arrays.
 // Call a different built-in JavaScript method on each of your variables. 
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
-// Include comments above each method call explaining the impact and return value of that method.
+// Include comments above each method call explaining the impact and return value of that 
+
+var name = "Kasandra";
+console.log(name.toLowerCase());
+// The toLowerCase method calls on the 'name' variable to make the  "Kasandra" lowercase. It returns "kasandra."
+
+var city = 'Denver';
+console.log(city.endsWith('Den'));
+// the endsWith function calls on the 'city' variable to check if the string "Denver" starts with the argument "Den." The return value is 'false.' 
+
+var pets = ["Bonnie", "Millie", "Archie"]
+pets.pop();
+console.log(pets);
+
+// the pop method removes the last element in an array. Here it is called to the variable pets and it elimiates the last element from the array string. It returns [Bonnie, Millie]
+
+
+var foods = ["Cherries", "Cheese", "Milk", "Apples"];
+
+console.log(foods.slice(3));
+
+// the sllice method prints out the elements in an array from a specific starting point. Here the slice method calls on the variable foods and the argument 3 specifies the position in which the elements can be printed. The return is [Apples].
