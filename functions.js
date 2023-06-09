@@ -48,19 +48,54 @@ console.log(salutation4)
 // 4: Write a function named square that takes in one number, and returns the square of that number.
 // BONUS: Print a sentence that interpolates the return value of your square function.
 
+function square(num) {
+  return `The square root of 4 is ${num * num}`;
+}
+
+var exponent = square(4);
+
+
+console.log(exponent);
+
+
 
 // 5: Write a function named checkStock that satisfies the following interaction pattern:
 // Hint: You will only write one checkStock function that checks the quantity and then prints the corresponding statement.
 
+
+
+// var quantity = checkStock
 // checkStock(4, "Coffee");
 // // => "Coffee is stocked"
+function checkStock() {
+  return "Coffee is stocked"
+}
+var quantity = checkStock(4)
+console.log(quantity)
 
 // checkStock(3, "Tortillas");
 // // => "Tortillas - running LOW"
 
+function checkStock1() {
+  return "Tortillas -- running LOW"
+}
+var quantity1 = checkStock1(3)
+console.log(quantity1)
+
 // checkStock(0, "Cheese");
 // // => "Cheese - OUT of stock!"
+function checkStock2() {
+  return "Cheese - OUT of stock!"
+}
+var quantity2 = checkStock2(0)
+console.log(quantity2)
 
 // checkStock(1, "Salsa");
 // // => "Salsa - running LOW"
+
+function checkStock3() {
+  return "Salsa - running LOW"
+}
+var quantity3 = checkStock3(3)
+console.log(quantity3)
 
